@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ang2Review
 Angular 2 Overview before App Implementation
 
@@ -47,3 +48,7 @@ npm install @angular/core @angular/common @angular/compiler @angular/platform-br
 ### ServerJS
 - Could also use WebPack ... Angular CLI uses Webpack docs have ServerJS
 -
+=======
+# Ang2StarterKit
+Starter Kit Scaffold to fork for new projects. 
+>>>>>>> 4368495ce92eaab3c3e681cc3757c8c3a14433f7
