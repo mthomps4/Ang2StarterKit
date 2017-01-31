@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-# Ang2Review
-Angular 2 Overview before App Implementation
-
-### Pre-work
-- Install typings -g
-- typings install dt~core-js dt~jasmine dt~node --save --global
- - typings tells typescript about the packages above
+# Ang2StarterKit
+Starter Kit Scaffold to fork for new projects.
 
 ### package.json scripts
 - tsc: start typscript
@@ -15,19 +9,14 @@ Angular 2 Overview before App Implementation
 
 npm install concurrently
 npm start script runs everything together using concurrently
-
-
-Creating .ts files while running the concurrent start function will auto create .js files
+.js files to 'dist' folder.
 
 ### Core Package Dependencies
-
 - Core JS Shim -> adds features for browsers
 - Zone.JS -> Helps track down errors in application
 - Reflect Metadata->  metadata to classes
 - RxJS -> Reactive Apps Async Observables instead of promises
 - SystemJS -> Load different modules etc
-
-npm install core-js reflect-metadata zone.js rxjs systemjs --save
 
 ### Angular Packages
 - @Angular/Core
@@ -41,14 +30,3 @@ Extras
 - @angular/http
 - @angular/forms
 - @angular/upgrade
-
-npm install @angular/core @angular/common @angular/compiler @angular/platform-browser @angular/platform-browser-dynamic @angular/forms @angular/http @angular/router @angular/upgrade --save
-
-
-### ServerJS
-- Could also use WebPack ... Angular CLI uses Webpack docs have ServerJS
--
-=======
-# Ang2StarterKit
-Starter Kit Scaffold to fork for new projects. 
->>>>>>> 4368495ce92eaab3c3e681cc3757c8c3a14433f7
